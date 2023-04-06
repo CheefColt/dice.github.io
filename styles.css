@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html{
+
+    height: 100%;
+}
+
+body{
+
+    min-height: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.title{
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Berkshire Swash';
+}
+
+h1{
+    font-size: 3rem;
+    color: aquamarine;
+}
+
+.dice{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+
+}
+
+.players{
+
+
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2rem;
+
+
+}
+
+.dice_img{
+
+    width: 50%;
+    margin-top: 0.3rem;
+
+}
+
+
+.footer{
+
+    margin-top: auto;
+}
+
+@media (min-width: 360px) {
+
+    .dice_img{
+
+        width: 9rem;
+    }
+    
+} 
+
+@media (min-width: 520px) {
+
+    .dice_img{
+
+        width: 11rem;
+    }
+    
+} 
+
+@media (min-width: 760px) {
+
+    .dice_img{
+
+        width: 11rem;
+    }
+    
+} 
+
